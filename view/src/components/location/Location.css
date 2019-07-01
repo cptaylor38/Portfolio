@@ -1,0 +1,15 @@
+@font-face {
+    font-family: SulphurPoint-Regular;
+    src: url('../../assets/fonts/SulphurPoint-Regular.otf');
+}
+
+.locationContainer
+{
+    font-family: SulphurPoint-Regular;
+    color: rgba(255, 255, 6, 0.856);
+}
+
+.locationContainer > p
+{
+    font-size: 22px;
+}

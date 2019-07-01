@@ -1,0 +1,10 @@
+@font-face {
+    font-family: SulphurPoint-Regular;
+    src: url('../../assets/fonts/SulphurPoint-Regular.otf');
+}
+
+.bioContainer
+{
+    font-size: 22px;
+    font-family: SulphurPoint-Regular;
+}

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: SulphurPoint-Regular;
+    src: url('../../assets/fonts/SulphurPoint-Regular.otf');
+}
+
+.introContainer
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    max-width: 60%;
+    font-family: SulphurPoint-Regular;
+}
+
+#nameDiv
+{
+    align-self: flex-end;
+}
+
+#introDiv
+{
+    align-self: center;
+}
+
+#helloDiv
+{
+    align-self: 'flex-start'
+}
+

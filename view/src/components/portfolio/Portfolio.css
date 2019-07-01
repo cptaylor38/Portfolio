@@ -1,0 +1,95 @@
+@keyframes bounce {
+	0%, 100%, 20%, 50%, 80% {
+		-webkit-transform: translateX(0);
+		-ms-transform:     translateX(0);
+		transform:         translateX(0)
+	}
+	40% {
+		-webkit-transform: translateX(-30px);
+		-ms-transform:     translateX(-30px);
+		transform:         translateX(-30px)
+	}
+	60% {
+		-webkit-transform: translateX(-15px);
+		-ms-transform:     translateX(-15px);
+		transform:         translateX(-15px)
+	}
+}
+
+@font-face {
+    font-family: SulphurPoint-Regular;
+    src: url('../../assets/fonts/SulphurPoint-Regular.otf');
+}
+
+#portfolioButton
+{
+    padding: 5px;
+    background: transparent;
+    -webkit-appearance: none;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    color: red;
+    flex-direction: row;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+    transform: rotate(-20deg);
+    font-family: SulphurPoint-Regular;
+}
+
+#portfolioButton:hover
+{
+    color: green;
+    animation-name: bounce;
+    -moz-animation-name: bounce;
+}
+
+#portfolioButton:hover #arrowHolder
+{
+    -ms-transform: rotate(0deg); /* IE 9 */
+    -webkit-transform: rotate(0deg); /* Safari 3-8 */
+    transform: rotate(0deg);
+}   
+
+#portNav
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#arrowHolder
+{
+    max-width: 10px;
+    margin-left: 30px;
+    -ms-transform: rotate(20deg); /* IE 9 */
+    -webkit-transform: rotate(20deg); /* Safari 3-8 */
+    transform: rotate(20deg);
+}
+
+@media (max-width: 929px)
+{
+    #portfolioButton
+    {
+        margin-top: 20px;
+        writing-mode: horizontal-tb;
+        display: flex;
+        align-items: center;
+        -ms-transform: rotate(0deg); /* IE 9 */
+        -webkit-transform: rotate(0deg); /* Safari 3-8 */
+        transform: rotate(0deg);
+    }
+    #arrowHolder
+    {
+        -ms-transform: rotate(0deg); /* IE 9 */
+        -webkit-transform: rotate(0deg); /* Safari 3-8 */
+        transform: rotate(0deg);
+    }
+}
