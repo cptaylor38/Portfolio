@@ -1,0 +1,17 @@
+.contactContainer
+{
+    font-size: 22px;
+}
+
+#contactModalBtn
+{
+    -webkit-appearance: none;
+    background: border-box;
+    border: none;
+    color: rgb(0, 81, 255);
+}
+
+#contactModalBtn:hover
+{
+    color: white;
+}

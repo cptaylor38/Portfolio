@@ -25,6 +25,7 @@ const Landing = () => {
         <>
             {page === 'portfolio' ? <PortfolioPage /> : (
                 <div className='container-fluid' id='landingContents'>
+                    <div id='svgContainer'></div>
                     <Logo />
                     <Intro />
                     <Links />

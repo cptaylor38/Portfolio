@@ -6,7 +6,7 @@ const Logo = () => {
     return (
         <>
             <div className='logoContainer container'>
-                <p>Logo</p>
+
             </div>
         </>
     )

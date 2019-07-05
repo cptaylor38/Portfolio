@@ -6,7 +6,7 @@ const Selfie = () => {
     return (
         <>
             <div className='selfieContainer container'>
-                <img src={selfie} id='selfie' alt='my picture'></img>
+                <img src={selfie} id='selfie' alt='selfie'></img>
             </div>
         </>
     )
