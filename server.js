@@ -5,6 +5,8 @@ const path = require('path');
 const nodemailer = require('nodemailer');
 const app = express();
 
+const PORT = process.env.PORT || 5000
+
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
@@ -55,7 +57,7 @@ app.post('/api/form', (req, res) => {
     })
 })
 
-const PORT = process.env.port || 5000
+
 
 app.listen(PORT, () => {
     console.log(`Now listening on port ${PORT}`);
