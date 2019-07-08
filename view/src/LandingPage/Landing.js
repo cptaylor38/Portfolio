@@ -23,7 +23,7 @@ const Landing = () => {
 
     return (
         <>
-            {page === 'portfolio' ? <PortfolioPage /> : (
+            {page === 'portfolio' ? <PortfolioPage setPage={setPage} /> : (
                 <div className='container-fluid' id='landingContents'>
                     <div id='svgContainer'></div>
                     <Logo />

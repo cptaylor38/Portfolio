@@ -1,7 +1,68 @@
+@font-face {
+    font-family: SulphurPoint-Regular;
+    src: url('../assets/fonts/SulphurPoint-Regular.otf');
+}
+
 #portfolioContents
 {
     background: rgb(167,30,16);
     background: linear-gradient(90deg, rgba(255,218,5,1) 0%, rgba(0,212,255,0.6449930313922444) 50%, rgba(167,30,16,1) 100%);
     min-height: 100vh;
     min-width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
 }
+
+#svgContainer
+{
+    min-height: 100%;
+    min-width: 100%;
+    background: url('../assets/images/minasvg.svg');
+    background-size: cover;
+    position: absolute;
+    opacity: 0.3;
+    z-index: -1000;
+}
+
+#viewJumbo
+{
+    background: rgba(255, 255, 255, 0.301);
+}
+
+#selectorJumbo
+{
+    flex: 1;
+    margin-bottom: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    background: rgba(255, 255, 255, 0.301);
+}
+
+#viewContainer
+{
+    display: flex;
+    justify-content: center;
+}
+
+#backButton
+{
+    -webkit-appearance: none;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: red;
+    font-size: 34px;
+    color: yellow;
+}
+
+#backButton:hover
+{
+    background: green;
+    color: lightskyblue;
+}
+

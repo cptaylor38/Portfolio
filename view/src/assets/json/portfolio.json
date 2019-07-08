@@ -1,0 +1,47 @@
+[
+    {
+        "title": "Clicky Endgame",
+        "githubLink": "https://github.com/cptaylor38/clickygame",
+        "deployedLink": "https://cptaylor38.github.io/clickygame/",
+        "body": "A memory testing click game themed around Avenger's Endgame.",
+        "image": "clickgame.png",
+        "tech": "React",
+        "id": 1
+    },
+    {
+        "title": "Wordstock",
+        "githubLink": "https://github.com/cptaylor38/project1",
+        "deployedLink": "https://wordstockproject.herokuapp.com/",
+        "body": "First project at the bootcamp. A multipurpose Translator/Dictionary application built around My Memory translation and Words Api's. The original intention of the application was to not only be able to translate to other languages, but use the dictionary functionality to understand the context behind a word. Currently collaborating with one of the other group members that was in charge of css to give it a fresher appearance and add responsiveness. My role during this project was managing the api calls and handling the front-end javascript wiring.",
+        "image": "wordstock.png",
+        "tech": "Initially: html, css, and javascript with ajax for the api calls. Added a small express server for Heroku deployment and api key protection via env variables.",
+        "id": 2
+    },
+    {
+        "title": "Designer Delve",
+        "githubLink": "https://github.com/cptaylor38/DesignerDelve",
+        "deployedLink": "https://whispering-escarpment-60858.herokuapp.com/",
+        "body": "Second project during the bootcamp. An app designed for freelance artists to submit their artwork and be found. When they submit their artwork they have the option of including their Facebook and LinkedIn as means of contact. Users can also search a variety of mediums and by state. My role consisted of database/schema, wiring front-end, handlebars integration, and some styling touch-ups to give it more responsiveness and a cohesive appearance.",
+        "image": "designerDelve.png",
+        "tech": "Node/Express, MySql, Cloudinary for image hosting and url generation, Greensock (GSAP), Jquery, and Handlebars",
+        "id": 3
+    },
+    {
+        "title": "Jeffpardy",
+        "githubLink": "https://github.com/cptaylor38/TriviaGame",
+        "deployedLink": "https://cptaylor38.github.io/TriviaGame/",
+        "body": "A short trivia game themed around Jeopardy with Jeff Goldblum quotes as the trivia questions. This application was not made with mobile responsiveness in mind.",
+        "image": "jeffpardy.webp",
+        "tech": "javascript/jquery, html, and css.",
+        "id": 4
+    },
+    {
+        "title": "Scraps",
+        "githubLink": "https://github.com/cptaylor38/scraps",
+        "deployedLink": "https://scrapsproject.herokuapp.com/",
+        "body": "Final project of the bootcamp, and with several ideas being scrapped with little time left to finish, Scraps seemed a fitting name. The main functionality of the app is that the user can query the Spotify API with a keyword and receive a list of songs pertaining to their query. The list contains links to the associated spotify album and a preview that generates a modal with an iframe to preview the song clip. The user is initially prompted with the login screen and upon registering their login information is added to a collection. The second main functionality of this application is a journal. The user can save and delete notes that will be added as a nested collection. After the many setbacks during the time of this project, we decided to just have fun with it and make the most of what we could. My role during this project consisted of setting up the server/database/api calls and integrating everything within React/React Hooks. This app is also currently lacking responsiveness and may have drastically different appearances on various screen sizes.",
+        "image": "scraps.png",
+        "tech": "MongoDB, Express, React/Hooks, Node, Firebase for authentication",
+        "id": 5
+    }
+]

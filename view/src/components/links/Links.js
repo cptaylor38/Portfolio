@@ -7,8 +7,8 @@ const Links = () => {
     return (
         <>
             <div className='linksContainer container'>
-                <a href='https://github.com/cptaylor38' title='Github' target='_blank'><FaGithub /></a>
-                <a href='https://www.linkedin.com/in/corbin-taylor-419a8a188/' title='LinkedIn' target='_blank'><FaLinkedinIn /></a>
+                <a href='https://github.com/cptaylor38' title='Github' target='_blank' rel="noopener noreferrer"><FaGithub /></a>
+                <a href='https://www.linkedin.com/in/corbin-taylor-419a8a188/' title='LinkedIn' target='_blank' rel="noopener noreferrer"><FaLinkedinIn /></a>
             </div>
         </>
     )

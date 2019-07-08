@@ -1,0 +1,59 @@
+@font-face {
+    font-family: SulphurPoint-Regular;
+    src: url('../../../assets/fonts/SulphurPoint-Regular.otf');
+}
+
+.pfModalWrapper
+{
+    z-index: 2000;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(15, 15, 15, 0.919);
+    color: whitesmoke;
+}
+
+.pfModalHeader
+{
+    background: rgba(15, 15, 15, 0.3);
+    display: flex;
+    justify-content: space-between;
+    font-family: SulphurPoint-Regular;
+}
+
+#projectDescription
+{
+    font-size: 18px;
+}
+
+.pfModalContent
+{
+    text-align: center;
+    width: 100%;
+    color: whitesmoke;
+    border-radius: 0;
+    font-family: SulphurPoint-Regular;
+    max-height: 200px;
+    overflow-y: scroll;
+}
+
+.pfModalFooter
+{
+    border: none;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    font-family: SulphurPoint-Regular;
+    font-size: 18px;
+}
+
+#pfModalClose
+{
+    color: white;
+}
+
+#pfModalClose:hover
+{
+    color: red;
+}

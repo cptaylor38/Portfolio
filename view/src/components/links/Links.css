@@ -2,7 +2,11 @@
 {
     font-size: 44px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-    padding: 40px;
+}
+
+.linksContainer > a
+{
+    padding: 0 20px;
 }

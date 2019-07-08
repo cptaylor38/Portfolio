@@ -1,3 +1,8 @@
+@font-face {
+    font-family: SulphurPoint-Regular;
+    src: url('../../../assets/fonts/SulphurPoint-Regular.otf');
+}
+
 .modal-wrapper
 {
     position: fixed;
@@ -42,6 +47,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    font-family: SulphurPoint-Regular;
+    font-size: 22px;
 }
 
 #contactForm > input, textarea
@@ -49,10 +56,65 @@
     width: 80%;
 }
 
+#contactForm > textarea
+{
+    resize: none;
+    overflow-y: scroll;
+}
+
+.modal-close-button
+{
+    -webkit-appearance: none;
+    background: none;
+    border:none;
+    font-size: 34px;
+}
+
+.modal-close-button:hover
+{
+    color: red;
+}
+
 #contactformBtn
 {
     margin-top: 20px;
+    background: green;
+    border-radius: 50px;
 }
+
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  ::-webkit-scrollbar-button {
+    width: 1px;
+    height: 1px;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #d8ec1e;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #d2e934;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background: #ea6c06;
+  }
+  ::-webkit-scrollbar-track {
+    background: #70e1f1;
+    border: 0px none #ffffff;
+  }
+  ::-webkit-scrollbar-track:hover {
+    background: #5ff3f8;
+  }
+  ::-webkit-scrollbar-track:active {
+    background: #0d0363;
+  }
+  ::-webkit-scrollbar-corner {
+    background: transparent;
+  }
+
 
 @media(max-width: 1254px){
     .modal-wrapper
