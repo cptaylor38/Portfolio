@@ -12,6 +12,7 @@
     transform: translate(-50%, -50%);
     background: rgba(15, 15, 15, 0.919);
     color: whitesmoke;
+    height: auto;
 }
 
 .pfModalHeader
@@ -36,6 +37,8 @@
     font-family: SulphurPoint-Regular;
     max-height: 200px;
     overflow-y: scroll;
+    padding-top: 10px;
+    margin-bottom: 20px;
 }
 
 .pfModalFooter
