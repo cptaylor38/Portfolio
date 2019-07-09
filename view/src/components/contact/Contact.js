@@ -16,7 +16,6 @@ const Contact = () => {
     })
 
     const handleChange = e => {
-        console.log(e.target);
         setformData({ ...formData, [e.target.name]: e.target.value })
     }
 
@@ -26,7 +25,7 @@ const Contact = () => {
             [e.target.name]: e.target.value
         })
         toggle(false);
-        const form = await axios.post('/api/form',
+        await axios.post('/api/form',
             {
                 first: formData.firstname,
                 last: formData.lastname,

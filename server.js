@@ -38,8 +38,7 @@ app.post('/api/form', (req, res) => {
                 user: process.env.gmailAddress,
                 clientId: process.env.gmailclientid,
                 clientSecret: process.env.gmailclientsecret,
-                refreshToken: process.env.accesstoken,
-                accessToken: process.env.refreshtoken
+                refreshToken: process.env.refreshtoken
             }
         })
 

@@ -1,0 +1,37 @@
+@font-face {
+    font-family: SulphurPoint-Regular;
+    src: url('../../assets/fonts/SulphurPoint-Regular.otf');
+}
+
+.resumeContainer
+{
+    font-size: 30px;
+    font-family: SulphurPoint-Regular;
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+
+.resumeContainer > a
+{
+    text-decoration: none;
+    color: greenyellow;
+}
+
+.resumeContainer > a:hover
+{
+    color: white;
+}
+
+@media(max-width: 929px)
+{
+    .resumeContainer > a
+    {
+        color: rgb(34, 34, 34);
+    }
+
+    .resumeContainer > a:hover
+    {
+        color: rgb(226, 0, 158);
+    }
+}
