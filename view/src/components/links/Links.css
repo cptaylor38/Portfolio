@@ -10,3 +10,8 @@
 {
     padding: 0 20px;
 }
+
+.linksContainer > a:hover
+{
+    font-size: 54px;
+}

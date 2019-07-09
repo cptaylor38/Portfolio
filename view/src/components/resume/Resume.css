@@ -21,6 +21,7 @@
 .resumeContainer > a:hover
 {
     color: white;
+    font-size: 40px;
 }
 
 @media(max-width: 929px)
