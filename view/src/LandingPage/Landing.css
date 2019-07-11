@@ -1,3 +1,8 @@
+body
+{
+    overflow-x: hidden;
+}
+
 #landingContents
 {
     background: rgb(167,30,16);
@@ -10,6 +15,7 @@
     align-items: center;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 #svgContainer
@@ -30,11 +36,74 @@
     text-align: center;
 }
 
+
+.logoContainer
+{
+    order: 1;
+}
+
+.introContainer
+{
+    order: 2;
+    margin-top: 30px;
+}
+
+.selfieContainer
+{
+    order: 6;
+}
+
+.resumeContainer
+{
+    order: 7;
+}
+
+.portfolioContainer
+{
+    order: 8;
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.contactContainer
+{
+    order: 9;
+}
+
+.linksContainer
+{
+    order: 3;
+    padding: 30px;
+}
+
+.locationContainer
+{
+    order: 4;
+    padding: 30px;
+}
+
+.bioContainer
+{
+    order: 6;
+    padding: 30px;
+}
+
 @media(max-width: 930px)
 {
     #landingContents > .container
     {
         flex-basis: 100%;
+    }
+
+    .portfolioContainer
+    {
+        order: 9;
+    }
+
+    .contactContainer
+    {
+        order: 8;
+        margin-top: 20px;
     }
 }
 

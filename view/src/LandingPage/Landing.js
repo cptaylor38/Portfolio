@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import './Landing.css';
 import Bio from '../components/bio/Bio';
 import Intro from '../components/intro/Intro';
@@ -13,30 +13,21 @@ import PortfolioPage from '../PortfolioPage/PortfolioPage';
 
 const Landing = () => {
 
-    const [page, setPage] = useState(null);
-
-    const setHome = () => {
-        setPage(null);
-    }
-
-    useEffect(setHome, []);
-
     return (
         <>
-            {page === 'portfolio' ? <PortfolioPage setPage={setPage} /> : (
-                <div className='container-fluid' id='landingContents'>
-                    <div id='svgContainer'></div>
-                    <Logo />
-                    <Intro />
-                    <Links />
-                    <Resume />
-                    <Selfie />
-                    <Portfolio setPage={setPage} />
-                    <Location />
-                    <Bio />
-                    <Contact />
-                </div >
-            )}
+            <div className='container-fluid' id='landingContents'>
+                <div id='svgContainer'></div>
+                <Logo />
+                <Intro />
+                <Links />
+                <Resume />
+                <Selfie />
+                <Portfolio />
+                <Location />
+                <Bio />
+                <Contact />
+            </div >
+            <PortfolioPage />
         </>
     );
 
