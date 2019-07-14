@@ -44,7 +44,19 @@
 #viewContainer
 {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    font-family: SulphurPoint-Regular;
+}
+
+#techList
+{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#techList >li
+{
+    margin: 0 40px;
 }
 
 #backButton

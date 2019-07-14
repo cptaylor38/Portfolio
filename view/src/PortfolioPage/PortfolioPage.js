@@ -14,7 +14,15 @@ const PortfolioPage = () => {
             <div id='svgContainer'></div>
             <Jumbotron fluid id='viewJumbo'>
                 <Container id='viewContainer'>
-
+                    <h1>Below are some of my favorite projects, using: </h1>
+                    <ul id='techList'>
+                        <li>Javascript/JQuery</li>
+                        <li>Css/Bootstrap</li>
+                        <li>React/Handlebars</li>
+                        <li>MongoDb/MySQL</li>
+                        <li>Ajax/Axios</li>
+                        <li>Node/Express</li>
+                    </ul>
                 </Container>
             </Jumbotron>
             <Jumbotron fluid id='selectorJumbo'>
