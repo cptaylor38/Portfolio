@@ -37,6 +37,8 @@ const Contact = () => {
     return (
         <>
             <div className='contactContainer container'>
+                <p><a href='mailto:cylor.dev@gmail.com'>cylor.dev@gmail.com</a></p>
+                <p>or</p>
                 <button type='button' id='contactModalBtn' onClick={toggle}>
                     <FaWeixin style={{ fontSize: '50px' }} />
                     <p>Contact</p>
