@@ -41,8 +41,17 @@
         "deployedLink": "https://cptaylor38.github.io/TriviaGame/",
         "body": "A short trivia game themed around Jeopardy with Jeff Goldblum quotes as the trivia questions. This application was not made with mobile responsiveness in mind.",
         "image": "jeffpardy.webp",
-        "tech": "javascript/jquery, html, and css.",
+        "tech": "javascript/jQuery, html, and css.",
         "id": 5
+    },
+    {
+        "title": "Match Maker",
+        "githubLink": "https://github.com/cptaylor38/Match-Maker",
+        "deployedLink": "https://survey-match-maker.herokuapp.com/",
+        "body": "Survey app that matches you with other users based on survey score.",
+        "image": "matchMaker.png",
+        "tech": "Node, HTML, CSS, jQuery",
+        "id": 6
     },
     {
         "title": "Scraps",
@@ -51,6 +60,6 @@
         "body": "The main functionality of the app is that the user can query the Spotify API with a keyword and receive a list of songs pertaining to their query. The list contains links to the associated spotify album and a preview that generates a modal with an iframe to preview the song clip. The user is initially prompted with the login screen and upon registering their login information is added to a collection. The second main functionality of this application is a journal. The user can save and delete notes that will be added as a nested collection. After the many setbacks during the time of this project, we decided to just have fun with it and make the most of what we could. My role during this project consisted of setting up the server/database/api calls and integrating everything within React/React Hooks. This app is also currently lacking responsiveness and may have drastically different appearances on various screen sizes.",
         "image": "scraps.png",
         "tech": "MongoDB, Express, React/Hooks, Node, Firebase for authentication",
-        "id": 6
+        "id": 7
     }
 ]
